@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #6295A2;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+
+}
+
+.navigation {
+    margin-top: 3%;
+}
+
+nav ul a {
+    display: inline-block;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+
+}
+
+nav a:hover {
+    color: black;
+
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius:5px 5px 0 0 ;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.content-table thead tr {
+
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+
+}
+
+.content-table thead th {
+    background-color: black;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid white;
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid black;
+}
+
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    height: 400px;
+    width: 300px;
+    margin-top: 10%;
+}
+
+h1 {
+    color: black;
+    font-family: menopause;
+    font-size: 45px;
+    font-weight: bold;
+}
+.content-table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.4s;
+    
+
+}
+.content-table tbody{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ .content-table:hover{
+	box-shadow: 0px 3px 12px 0px white;
+	border: 1px solid transparent;
+    
+}
